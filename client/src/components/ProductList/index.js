@@ -19,10 +19,17 @@ function ProductList() {
   const { loading, data } = useQuery(QUERY_PRODUCTS);
   
   useEffect(() => {
+    // if there is data to be stored
     if (data) {
+      //let's store it in the global state object
       dispatch({
         type: UPDATE_PRODUCTS,
         products: data.products
+      });
+
+      // but let's also take each product and sabev it to IndexedDB using the helper function
+      data.products.forEach((product) => {
+        idbPromise('products', 'put', product);
       });
     }
   }, [data, dispatch]);
