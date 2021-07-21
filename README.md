@@ -48,7 +48,7 @@ Please see below animations for different sections of this application:
 
 * The following animation shows how a user can register using the Signup page and then navigate to the Products page:
 
-![alt=signup](./client/src/assets/signup.mov)
+![alt=signup](./client/src/assets/signup.gif)
 
 * The following animation shows how the user can select a category, choose a product, view details about it on the product page, and add and remove it from their shopping cart:
 
