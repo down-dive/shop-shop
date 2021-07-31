@@ -99,7 +99,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployed Application
 
-Please use the following link to view the deployed application on Heroku: [Deployed App]( https://shop-shop-yev.herokuapp.com/)
+Please use the following link to view the deployed application on Heroku: [Deployed App](https://shop-shop-yev.herokuapp.com/)
 
 ## Questions
 
